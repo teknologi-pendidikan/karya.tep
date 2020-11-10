@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-prismic-starter-prist",
+  "name": "karya-teknologipendidikan",
   "private": true,
-  "description": "A starter powered by Gatsby and Prismic to showcase portfolios and blogs.",
+  "description": "Tempat Mahasiswa TEP UM 2020 menampilkan tugas dan karya unggulannya sebagai bentuk apresiasi diri. Kami terbuka untuk kolaborasi dan kontribusi karya",
   "version": "0.1.0",
-  "author": "Marguerite Roth | marguerite.io | marguerite.roth@gmail.com",
+  "author": "TEPers UM 2020",
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
