@@ -52,7 +52,7 @@ const Work = ({ projects, meta }) => (
         />
         <Layout>
             <WorkTitle>
-                Work
+                Karya dan Kreasi
             </WorkTitle>
             <>
                 {projects.map((project, i) => (

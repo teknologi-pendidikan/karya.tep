@@ -156,7 +156,7 @@ const RenderBody = ({ home, projects, meta }) => (
                 />
             ))}
             <WorkAction to={"/work"}>
-                See more work <span>&#8594;</span>
+                Lihat karya menarik lainnya <span>&#8594;</span>
             </WorkAction>
         </Section>
         <Section>

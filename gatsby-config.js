@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Prist | Gatsby & Prismic Starter`,
-        description: `A starter powered by Gatsby and Prismic to showcase portfolios and blogs.`,
-    author: `Marguerite Roth | marguerite.io`,
+    title: `Karya TEP | Lembar Galeri Mahasiswa TEP 2020`,
+    description: `Tempat Mahasiswa TEP UM 2020 menampilkan tugas dan karya unggulannya sebagai bentuk apresiasi diri. Kami terbuka untuk kolaborasi dan kontribusi karya`,
+    author: `TEPers UM 2020`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,31 +24,31 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-        resolve: 'gatsby-source-prismic-graphql',
-        options: {
-            repositoryName: 'teknologi-pendidikan', // (REQUIRED, replace with your own)
-            linkResolver: () => post => `/${post.uid}`,
-        }
+      resolve: "gatsby-source-prismic-graphql",
+      options: {
+        repositoryName: "teknologi-pendidikan", // (REQUIRED, replace with your own)
+        linkResolver: () => post => `/${post.uid}`,
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-prismic-starter-prist`,
-        short_name: `prist`,
+        name: `Karya Mahasiswa TEP Universitas Negeri Malang`,
+        short_name: `Karya TEP`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/oscar-icon.png`, // This path is relative to the root of the site.
+        background_color: `#003E80`,
+        theme_color: `#003E80`,
+        display: `standalone`,
+        icon: `src/images/icon-karya-tep.png`, // This path is relative to the root of the site.
       },
     },
     // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
     {
-        resolve: `gatsby-plugin-google-analytics`,
-        options: {
-            trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
-            head: true,
-        },
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+        head: true,
+      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
