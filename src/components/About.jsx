@@ -1,11 +1,11 @@
-import React from "react"
-import Button from "components/_ui/Button"
-import styled from "@emotion/styled"
-import dimensions from "styles/dimensions"
-import { RichText } from "prismic-reactjs"
-import PropTypes from "prop-types"
+import React from 'react'
+import Button from 'components/_ui/Button'
+import styled from '@emotion/styled'
+import dimensions from 'styles/dimensions'
+import { RichText } from 'prismic-reactjs'
+import PropTypes from 'prop-types'
 
-const AboutContainer = styled("div")`
+const AboutContainer = styled('div')`
   padding-top: 1em;
   display: grid;
   grid-template-columns: 8em 1fr 8em;
@@ -22,7 +22,7 @@ const AboutContainer = styled("div")`
   }
 `
 
-const AboutLinkContainer = styled("div")`
+const AboutLinkContainer = styled('div')`
   padding-top: 1em;
   padding-bottom: 3em;
   display: flex;
@@ -33,7 +33,7 @@ const AboutLinkContainer = styled("div")`
   }
 `
 
-const AboutLink = styled("a")`
+const AboutLink = styled('a')`
   margin-bottom: 1.5em;
   font-weight: 600;
   line-height: 1.9;
@@ -57,7 +57,7 @@ const AboutLink = styled("a")`
   }
 `
 
-const AboutBio = styled("div")`
+const AboutBio = styled('div')`
   padding-bottom: 3em;
   max-width: 480px;
 
@@ -66,7 +66,7 @@ const AboutBio = styled("div")`
   }
 `
 
-const AboutActions = styled("div")`
+const AboutActions = styled('div')`
   padding-top: 1em;
   padding-bottom: 3em;
 

@@ -1,9 +1,9 @@
-import React from "react"
-import styled from "@emotion/styled"
-import colors from "styles/colors"
-import iconTep from "images/icon-karya-tep.png"
+import React from 'react'
+import styled from '@emotion/styled'
+import colors from 'styles/colors'
+import iconTep from 'images/icon-karya-tep.png'
 
-const FooterContainer = styled("div")`
+const FooterContainer = styled('div')`
   padding-top: 3.75em;
   padding-bottom: 3em;
   display: flex;
@@ -15,7 +15,7 @@ const FooterContainer = styled("div")`
   }
 `
 
-const FooterAuthor = styled("a")`
+const FooterAuthor = styled('a')`
   font-size: 0.75em;
   color: ${colors.grey700};
   display: flex;
@@ -45,7 +45,7 @@ const FooterAuthor = styled("a")`
   }
 `
 
-const FootericonTep = styled("img")`
+const FootericonTep = styled('img')`
   max-width: 33px;
   margin-top: 0.25em;
 `
